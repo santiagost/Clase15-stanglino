@@ -117,6 +117,10 @@ footer {
   width: 100%;
 }
 
+.nav-home {
+  color: #9D2D25;
+}
+
 .inicio .inicio__titulo {
   position: relative;
   top: 135px;
@@ -134,14 +138,14 @@ footer {
   width: 80%;
   border-radius: 10px;
   position: relative;
-  left: 43px;
+  left: 38px;
   margin-top: 20px;
 }
 
 .inicio .inicio__container {
   position: relative;
   top: -60px;
-  left: 45px;
+  left: 35px;
   border-radius: 15px;
   width: 80%;
 }
