@@ -109,7 +109,7 @@ footer{
 .inicio{
   .inicio__titulo{
     position: relative;
-    top: 125px;
+    top: 135px;
     width: 95%;
     text-align: center;
     color: white;
@@ -122,13 +122,13 @@ footer{
     width: 80%;
     border-radius: 10px;
     position: relative;
-    left: 30px;
+    left: 43px;
     margin-top: 20px;
   }
   .inicio__container{
     position: relative;
     top: -60px;
-    left: 30px;
+    left: 45px;
     border-radius: 15px;
     width: 80%;
     .inicio__container--imagen{
@@ -147,9 +147,10 @@ footer{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  height: 105rem;
+  height: 112rem;
     .carta__cuerpo{    
       width: 90%;
+      height: 440px;
       background-color: #747572;
       padding-top: 15px;
       position: relative;
@@ -479,9 +480,7 @@ footer{
     font-weight: bold;
 }
 .input3{
-    border-radius: 5px;
     padding:10px 20px 10px 20px;
-    background-color: #ffffff;
     color: #747572;
 }
 .form{
@@ -519,9 +518,6 @@ footer{
 .nav-default2{
   color: #747572;
 }
-.nav-home{
-  color: #9D2D25;
-}
 .nav-page{
       border-radius: 10px ;
       background-color: #9D2D25;
@@ -547,21 +543,6 @@ footer{
     .nav-default{
       color: white;
     }
-    .nav-home{
-      color: #9D2D25;
-    }
-    .nav-sn{
-      color: #9D2D25;
-    }
-    .nav-vya{
-      color: #9D2D25;
-    }
-    .nav-ts{
-      color: #9D2D25;
-    }
-    .nav-cont{
-      color: #9D2D25;
-    }
     .nav {
       display: none;
     }
@@ -585,8 +566,8 @@ footer{
     }
     .nosotros{
       width: 100%;
-      height: 460px;
-      padding-top: 0px;
+      height: 490px;
+      padding-top: 15px;
       .nosotros__imagen{
         width: 100%;
         height: 260px;
@@ -697,12 +678,17 @@ footer{
   background-color: #ffffff;
   color: #9D2D25;
   font-weight: bold;
-  position: relative;
-  left: 0px;
-  top: 3px;
 }
 }
+@media only screen and (min-width:401px){
+      .form__completar{
+        width: 70%;
+        height: 500px;
+        left: 62px;
+      }
 
+
+}
 
 
 @media only screen and (min-width: 500px){
@@ -772,13 +758,14 @@ footer{
     .form__imagen{
       width: 100%;
       height: 500px;
-    }
-    .form__completar{
-      color: #ffffff;
-    }
+    }   
     .form__imagen--2{
       display: none;
     }
+  }
+  .form__completar{
+    width: 70%;
+    left: 38px;
   }
   .input{
     margin-bottom: 20px;
@@ -791,25 +778,21 @@ footer{
     color: #9D2D25;
     font-weight: bold;
     position: relative;
-    left: -25px;
+    left: -79px;
 }
 .input3{
     border-radius: 5px;
     padding:10px 20px 10px 20px;
     font-weight: bold;
     position: relative;
-    left: -240px;
-    top: 50px;
+    left: -55px;
+    top: 0px;
+    width: 500px;
 }
 .input4{
-  border-radius: 5px;
-  padding:10px 20px 10px 20px;
-  background-color: #ffffff;
-  color: #9D2D25;
-  font-weight: bold;
-  position: relative;
-  left: 55px;
-  top: 3px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+
 }
 .carta{
   height: 138rem;
@@ -969,12 +952,10 @@ footer{
     height: 100px;
   }
   .input3{
-    left: -200px;
-    top: 49px;
-  }
-  .input4{
-    left: 0px;
+    position: relative;
+    left: -20px;
     top: 0px;
+    width: 500px;
   }
   .carta{
     height: 155rem;
@@ -1459,7 +1440,7 @@ nav{
     left: 60px;
   }
   .input3{
-    left: 60px;
+    left: -20px;
   }
   nav{
     .nav__img{
