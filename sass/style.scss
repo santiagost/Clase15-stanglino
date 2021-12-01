@@ -761,13 +761,14 @@ footer{
   .carta{
     .carta__cuerpo{
       height: 430px;
+      text-align: center;
       .carta__cuerpo--enlace{
         position: relative;
-        left: 37%;
+        left: 0%;
         margin-left: 0px;
       }
       .carta__cuerpo--imagen{
-        left: 17px;
+        left: 0px;
       }
     }
   }
@@ -905,7 +906,104 @@ footer{
 
 }
 @media only screen and (min-width: 600px){
+  .carta{
+    margin-bottom: 2rem;
+    .carta__cuerpo{
+      height: 520px;
+      .carta__cuerpo--enlace{
+        position: relative;
+        left: 40%;
+        margin-left: 0px;
+      }
+      .carta__cuerpo--imagen{
+        left: 25px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .nosotros{
+    height: 400px;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+      .nosotros__imagen{
+        width: 70%;
+      }
+  }
+  .nosotros2{
+    height: 420px;
+    width: 80%;
+    left: -310px;
+      .nosotros__imagen{
+        width: 70%;    
+      }
+  }
+  .nosotros3{
+    height: 410px;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+      .nosotros__imagen{
+        width: 70%;
+      }
+  }
+  .input2{
+    left: -107px;
+  }
+  .input3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0px;
+  }
   
+}
+@media only screen and (min-width: 700px) {
+  .input2{
+    text-align: left;
+  }
+  .input3{
+    text-align: left;
+  }
+  .carta{
+    margin-bottom: 42rem;
+    .carta__cuerpo{
+      text-align: center;
+      height: 600px;  
+      display: block;
+      margin-right: auto;
+      margin-left: 20px;
+      .carta__cuerpo--imagen{
+        position: relative;
+        left: 0px;
+      }
+      .carta__cuerpo--enlace{
+        position: relative;
+        left: 0px;
+      }
+    }
+  }
+  .nosotros{
+      .nosotros__imagen{
+        width: 60%;
+      }
+  }
+  .nosotros2{
+    height: 420px;
+    width: 80%;
+    left: -300px;
+      .nosotros__imagen{
+        width: 60%;    
+      }
+  }
+  .nosotros3{
+      .nosotros__imagen{
+        width: 60%;
+      }
+  }
 }
 @media only screen and (min-width: 768px) {
     .nav {
@@ -939,57 +1037,25 @@ footer{
       border-bottom: white solid 1.5px;
     }
     .nosotros{
-      height: 400px;
-      width: 85%;
       .nosotros__imagen{
-        position: relative;
-        left: 185px;
-        width: 50%;
-        height: 220px;
-        margin-top: 15px;
-      }
-      .nosotros__cuadro{
-          width: 80%;
-          position: relative;
-          left: 80px;
+        width: 65%;
+        height: 240px;
       }
   }
   .nosotros2{
-      width: 85%;
-      height: 420px;
-      position: relative;
-      left: -320px;
-        .nosotros__imagen{
-          position: relative;
-        left: 185px;
-        width: 50%;
-        height: 220px;
-        margin-top: 15px;    
-        }
-        .nosotros2__cuadro{
-          position:relative;
-          top: 0px;
-          left: 0px;
-          width: 100%;
-          text-align: center;
-          font-size: 13px;
-        }
+    height: 420px;
+    width: 80%;
+    left: -295px;
+      .nosotros__imagen{
+        width: 65%;    
+        height: 240px;
+      }
   }
   .nosotros3{
-    height: 420px;
-    width: 85%;
-    .nosotros__imagen{
-      position: relative;
-      left: 185px;
-      width: 50%;
-      height: 220px;
-      margin-top: 15px;
-    }
-    .nosotros__cuadro{
-      width: 80%;
-      position: relative;
-      left: 80px;
-  }
+      .nosotros__imagen{
+        width: 65%;
+        height: 240px;
+      }
   }
   .orden__disp{
     position: relative;
@@ -1030,25 +1096,23 @@ footer{
     width: 500px;
   }
   .carta{
-    height: 155rem;
-    margin-bottom: 20rem;
-        .carta__cuerpo{
-          left:33px;
-          height: 40rem;
-            .carta__cuerpo--imagen{
-              width: 93%;
-              left:21px;
-            }
-            .carta__cuerpo--texto{
-              left: 75px;
-            }
-            .carta__cuerpo--enlace{
-              position: relative;
-              left: 40px;
-              padding: 20px 40px 20px 40px;
-            }
-        }
+    margin-bottom: 50rem;
+    .carta__cuerpo{
+      text-align: center;
+      height: 620px;  
+      display: block;
+      margin-right: auto;
+      margin-left: 20px;
+      .carta__cuerpo--imagen{
+        position: relative;
+        left: 0px;
+      }
+      .carta__cuerpo--enlace{
+        position: relative;
+        left: 0px;
+      }
     }
+  }
     .inicio{
       .inicio__titulo{
         top: 200px;
@@ -1075,8 +1139,68 @@ footer{
       left: 230px;
     }
 }
-  
-  @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 900px) {
+  .carta{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30rem;
+    .carta__cuerpo{
+      width: 48%;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      height: 470px;
+    }
+  }
+  .inicio{
+    margin-top: 0px;
+    text-align: center;
+    .inicio__titulo{
+      font-size: 70px;
+      top: 300px;
+    }
+    .inicio__imagen2{
+      left: 0px;
+    }
+    .inicio__container{
+      left: 50px;
+      .inicio__container--imagen{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+        top: -100px;
+      }
+      .inicio__container--texto{
+        left: 175px;
+        top: -100px;
+      }
+    }
+  }
+.nosotros{
+  .nosotros__imagen{
+    width: 55%;
+    height: 240px;
+  }
+}
+.nosotros2{
+  height: 420px;
+  width: 80%;
+  left: -280px;
+    .nosotros__imagen{
+      width: 55%;  
+      height: 240px;
+    }
+}
+.nosotros3{
+    .nosotros__imagen{
+      width: 55%;
+      height: 240px;
+    }
+}
+
+} 
+@media only screen and (min-width: 1024px) {
     .h1_img {
       font-size: 40px;
       top: 500px;
@@ -1125,15 +1249,15 @@ footer{
     .nosotros{
       width: 70%;
       height: 250px;
-      padding: 15px;
+      padding: 15px;  
+      position: relative;
+      left: -100px;
       .nosotros__imagen{
         width: 315px;
         height: 230px;
-        padding-bottom: 15px;
-        position: relative;
-        left: 0px;
-        top: 0px;
         margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
       }
       .nosotros__cuadro{
           position:relative;
@@ -1163,7 +1287,9 @@ footer{
           height: 220px;
           position: relative;
           left: 400px; 
-          margin-top: 0px;       
+          margin-top: 0px;   
+          margin-left: 0px;
+          margin-right: 0px;    
         }
         .nosotros2__cuadro{
           position:relative;
@@ -1185,12 +1311,15 @@ footer{
     width: 75%;
     height: 250px;
     padding: 15px;
+    position: relative;
+    left: -100px;
     .nosotros__imagen{
       width: 315px;
       height: 230px;
       margin-top: 0px;
       position: relative;
-      left: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
     }
     .nosotros__cuadro{
         position:relative;
@@ -1301,23 +1430,25 @@ footer{
 .grilla__imagen{
     grid-area: img;
     position: relative;
-    left: 520px;
+    left: 515px;
     top: 100px;
     height: 480px;
-    width: 500px;
+    width: 490px;
 }
 .grilla__vision{
   grid-area: v;
   width: 400px;
   position: relative;
   top: -100px;
-  left: 50px;
+  left: 20px;
   text-align: right;
   font-size: 13px;
 }
 .grilla__ig{
   grid-area: ig;
-  width: 600px;
+  position: relative;
+  left: 30px;
+  width: 570px;
   height: 350px;
 
 }
@@ -1325,7 +1456,7 @@ footer{
   grid-area: tv;
   position: relative;
   top: 80px;
-  left: 40px;
+  left: 20px;
 }
 }
 .form{
@@ -1349,55 +1480,45 @@ nav{
     }
   }
   .inicio{
+    margin-top: 0px;
+    text-align: center;
     .inicio__titulo{
-      top: 280px;
-      left: 50px;
-      font-size: 60px;
+      font-size: 70px;
+      top: 300px;
     }
     .inicio__imagen2{
-      width: 85%;
-      left: 75px;
+      left: 0px;
     }
     .inicio__container{
-      left: 170px;
-      top: -100px;
+      left: 60px;
+      .inicio__container--imagen{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+        height: 270px;
+        top: -100px;
+      }
       .inicio__container--texto{
-        width: 60%;
-        margin-top: 10px;
-        position: relative;
-        left: 95px;
-        font-size: 20px;
-        }
-        .inicio__container--imagen{
-          width: 50%;
-          height: 300px;
-          position: relative;
-          left: 130px;
-        }
+        left: 235px;
+        top: -100px;
+        width: 50%;
       }
     }
-    .carta{
+  }
+  .carta{
+      display: flex;
+      flex-wrap: wrap;
       width: 100%;
-      height: 80rem;
-      margin-bottom: 20rem;
-          .carta__cuerpo{
-            left:33px;
-            height: 34rem;
-            width: 450px;
-            margin-right: 50px;
-              .carta__cuerpo--imagen{
-                left:15px;
-              }
-              .carta__cuerpo--texto{
-                left: 45px;
-                font-size: 18px;
-              }
-              .carta__cuerpo--enlace{
-                position: relative;
-                left: 0px;
-              }
-          }
+      height: 30rem;
+      .carta__cuerpo{
+        width: 48%;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        height: 490px;
       }
+    }
+    
   }
   
   @media only screen and (min-width: 1366px) {
@@ -1581,13 +1702,8 @@ nav{
                 left: 0px;
               }
           }
-      }
+      } 
   }
-
-.contenedor{
-  display: flex;
-  flex-wrap: wrap;
-}
   /*# sourceMappingURL=style.css.map */
   
 
