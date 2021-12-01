@@ -682,70 +682,144 @@ footer{
   font-weight: bold;
 }
 }
-@media only screen and (min-width:401px){
+@media only screen and (min-width:300px){
+  .carta{
+    .carta__cuerpo{
+      height: 400px;
+      .carta__cuerpo--enlace{
+        position: relative;
+        left: 85px;
+        margin-left: 0px;
+      }
+    }
+  }
+  .inicio{
+    .inicio__titulo{
+      top: 100px;
+      left: 8px;
+    }
+    .inicio__imagen2{
+      left: 30px;
+    }
+    .inicio__container{
+      left: 20px;
+      .inicio__container--texto{
+        width: 90%;
+        position: relative;
+        left: 22px;
+      }
+    }
+  }
+  .nav__logo{
+    left: 0px;
+  }
+  .nosotros2{
+    width: 100%;
+    height: 550px;
+  }
+  .nosotros{
+    height: 450px;
+    .nosotros__imagen{
+      width: 100%;
+      height: 210px;
+    }
+}
+  .nosotros2{
+    height: 520px;
+    .nosotros__imagen{
+      height: 200px;
+    }
+  }
+  .orden__disp{
+    position: relative;
+    left: 100px;
+  }
+}
+@media only screen and (min-width:400px){
       .form__completar{
         width: 70%;
         height: 500px;
         left: 62px;
       }
-
-
+  .inicio{
+    .inicio__titulo{
+      top: 130px;
+      left: 10px;
+      font-size: 35px;
+    }
+    .inicio__imagen2{
+      left: 40px;
+    }
+    .inicio__container{
+      left: 40px;
+      .inicio__container--texto{
+        width: 85%;
+        margin-top: 15px;
+      }
+    }
+  }    
+  .carta{
+    .carta__cuerpo{
+      height: 430px;
+      .carta__cuerpo--enlace{
+        position: relative;
+        left: 37%;
+        margin-left: 0px;
+      }
+      .carta__cuerpo--imagen{
+        left: 17px;
+      }
+    }
+  }
+  .nosotros{
+    .nosotros__imagen{
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 80%;
+    }
+  }
+  .nosotros2{
+    height: 450px;
+    .nosotros__imagen{
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 80%;
+    }
+  }
+  .nosotros3{
+    height: 450px;
+    .nosotros__imagen{
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 80%;
+    }
+  }
+  .input4{
+    margin-bottom: 10px;
+  }
 }
 
 
 @media only screen and (min-width: 500px){
   .nosotros{
-    width: 80%;
-    height: 370px;
-    position: relative;
-    left: 50px;
+    height: 400px;
       .nosotros__imagen{
-        position: relative;
-        left: 70px;
-        width: 60%;
-        height: 180px;
-      }
-      .nosotros__cuadro{
-          font-size: 13px;
-          letter-spacing: 2px;
-          width: 100%;
-          position: relative;
-          top: 20px;
-          left: 0px;
-          text-align: center;
+        width: 70%;
       }
   }
   .nosotros2{
-    width: 80%;
-    height: 380px;
-    position: relative;
-    left: -320px;
+    height: 420px;
       .nosotros__imagen{
-        position: relative;
-        left: 80px;
-        width: 60%;
-        height: 180px;    
-      }
-      .nosotros2__cuadro{
-        position:relative;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        text-align: center;
-        font-size: 13px;
-        letter-spacing: 2px;
+        width: 70%;    
       }
   }
   .nosotros3{
-    width: 80%;
-    height: 370px;
-    position: relative;
-    left: 50px;
+    height: 410px;
       .nosotros__imagen{
-        position: relative;
-        left: 80px;
-        width: 60%;
-        height: 180px;
+        width: 70%;
       }
   }
   #grilla{
@@ -780,13 +854,13 @@ footer{
     color: #9D2D25;
     font-weight: bold;
     position: relative;
-    left: -79px;
+    left: -70px;
 }
 .input3{
     padding:10px 20px 10px 20px;
     font-weight: bold;
     position: relative;
-    left: -55px;
+    left: -90px;
     top: 0px;
     width: 500px;
 }
@@ -795,32 +869,11 @@ footer{
   margin-right: 10px;
 
 }
-.carta{
-  height: 138rem;
-      .carta__cuerpo{
-        left:33px;
-          .carta__cuerpo--imagen{
-            width: 93%;
-            left:18px;
-          }
-          .carta__cuerpo--texto{
-            position: relative;
-            left: 45px;
-            width: 80%;
-            margin-top: 15px;
-          }
-          .carta__cuerpo--enlace{
-            position: relative;
-            left: 25px;
-          }
-      }
-}
 .inicio{
   .inicio__titulo{
-    top: 180px;
-    left: 25px;
-    width: 95%;
-    font-size: 34px;
+    top: 160px;
+    left: 20px;
+    font-size: 35px;
   }
   .inicio__imagen2{
     width: 85%;
@@ -835,6 +888,24 @@ footer{
     }
   }
 }
+.carta{
+  margin-bottom: 20rem;
+  .carta__cuerpo{
+    height: 500px;
+    .carta__cuerpo--enlace{
+      position: relative;
+      left: 38%;
+      margin-left: 0px;
+    }
+    .carta__cuerpo--imagen{
+      left: 17px;
+    }
+  }
+}
+
+}
+@media only screen and (min-width: 600px){
+  
 }
 @media only screen and (min-width: 768px) {
     .nav {
