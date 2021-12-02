@@ -170,6 +170,7 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 112rem;
+  text-align: center;
 }
 
 .carta .carta__cuerpo {
@@ -625,6 +626,9 @@ footer {
 
 /* Mobile first */
 @media only screen and (min-width: 250px) {
+  .carta .carta__cuerpo {
+    text-align: center;
+  }
   .noseve {
     background-color: white;
   }
@@ -781,12 +785,20 @@ footer {
 }
 
 @media only screen and (min-width: 300px) {
+  .carta {
+    text-align: center;
+  }
   .carta .carta__cuerpo {
     height: 400px;
+    text-align: center;
+  }
+  .carta .carta__cuerpo .carta__cuerpo--imagen {
+    position: relative;
+    left: 0px;
   }
   .carta .carta__cuerpo .carta__cuerpo--enlace {
     position: relative;
-    left: 85px;
+    left: 0px;
     margin-left: 0px;
   }
   .inicio .inicio__titulo {
@@ -975,15 +987,12 @@ footer {
     margin-bottom: 20rem;
   }
   .carta .carta__cuerpo {
-    height: 500px;
+    height: 470px;
   }
   .carta .carta__cuerpo .carta__cuerpo--enlace {
     position: relative;
-    left: 38%;
+    left: 0%;
     margin-left: 0px;
-  }
-  .carta .carta__cuerpo .carta__cuerpo--imagen {
-    left: 17px;
   }
 }
 
@@ -995,12 +1004,9 @@ footer {
     height: 520px;
   }
   .carta .carta__cuerpo .carta__cuerpo--enlace {
-    position: relative;
-    left: 40%;
     margin-left: 0px;
   }
   .carta .carta__cuerpo .carta__cuerpo--imagen {
-    left: 25px;
     margin-top: 10px;
   }
   .nosotros {
